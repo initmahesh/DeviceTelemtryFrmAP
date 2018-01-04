@@ -1,2 +1,3 @@
 # DeviceTelemtryFrmAP
-The project allows accesss point to report information about all the device connected to access point.
+The project allows accesss point to report information about all the device connected to access point to track no of active devices  per location.
+Please read the ReadmE.pdf for details....
