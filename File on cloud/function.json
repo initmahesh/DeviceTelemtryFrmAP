@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "mytestcap/{name}",
+      "connection": "yadavsrorageaccount01_STORAGE"
+    },
+    {
+      "type": "table",
+      "name": "outputTable",
+      "tableName": "DeviceDataCap",
+      "connection": "yadavsrorageaccount01_STORAGE",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
